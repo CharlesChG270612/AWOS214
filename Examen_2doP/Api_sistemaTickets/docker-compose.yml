@@ -1,0 +1,8 @@
+services:
+  api:
+    build: .
+    container_name: server_sistemaTickets
+    ports:
+      - "5004:5000"
+    volumes:
+      - ./app:/app/app
